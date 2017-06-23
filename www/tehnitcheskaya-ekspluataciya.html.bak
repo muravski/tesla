@@ -1,0 +1,40 @@
+<ons-page>
+    <ons-toolbar>
+        <div class="left"><ons-back-button>Назад</ons-back-button></div>
+        <div class="center">Омск-Маркса-41-7</div>
+    </ons-toolbar>
+
+    <div style="text-align: center">
+
+        <h2>Омск-Маркса 41-7-техническая эксплуатация</h2>
+		<h3>Вы можете подать заявку по вопросам:</h3>
+     <div style="text-align: center">
+        <br>
+        <ons-button
+            onclick="myNavigator.pushPage('kondicianirovanie.html')">
+         Кондиционирование, вентиляция
+        </ons-button>
+    </div>
+	 <div style="text-align: center">
+        <br>
+        <ons-button
+            onclick="myNavigator.pushPage('klining.html')">
+          Ремонт помещений
+        </ons-button>
+    </div>
+	 <div style="text-align: center">
+        <br>
+        <ons-button
+            onclick="myNavigator.pushPage('ohrana.html')">
+           Места общего пользования
+        </ons-button>
+    </div>
+	<div style="text-align: center">
+        <br>
+        <ons-button
+            onclick="myNavigator.pushPage('buhgalteriya.html')">
+           Инженерные сети
+        </ons-button>
+    </div>
+	    </div>
+</ons-page>

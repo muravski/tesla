@@ -9605,7 +9605,9 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 })( window );
 
 /*** <End:monaca-jquery LoadJs:"components/monaca-jquery/jquery.js"> ***/
-/*** <End:monaca-jquery> ***//*** <Start:monaca-jquery-mobile> ***/
+/*** <End:monaca-jquery> ***/
+
+/*** <Start:monaca-jquery-mobile> ***/
 /*** <Start:monaca-jquery-mobile LoadJs:"components/monaca-jquery-mobile/jquery.mobile.js"> ***/
 /*
 * jQuery Mobile 1.3.1

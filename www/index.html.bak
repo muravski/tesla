@@ -55,8 +55,7 @@
   <!-- List Page -->
   <div data-role="page" id="ListPage">
         <section data-role="content">     
-<ons-navigator var="myNavigator" page="page1.html">
-    </ons-navigator> 
+
     
       
       <!--Dialog box confirming logout-->

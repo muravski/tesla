@@ -1,0 +1,28 @@
+<ons-page>
+    <ons-toolbar>
+        <div class="center">УК Тесла</div>
+    </ons-toolbar>
+
+    <div style="text-align: center">
+        <br>
+        <ons-button
+            onclick="myNavigator.pushPage('page2.html')">
+           Омск
+        </ons-button>
+    </div>
+	 <div style="text-align: center">
+        <br>
+        <ons-button
+            onclick="myNavigator.pushPage('page3.html')">
+          Иркутск
+        </ons-button>
+    </div>
+	 <div style="text-align: center">
+        <br>
+        <ons-button
+            onclick="myNavigator.pushPage('page4.html')">
+           Др. города
+        </ons-button>
+    </div>
+
+</ons-page>

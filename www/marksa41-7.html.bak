@@ -1,0 +1,47 @@
+<ons-page>
+    <ons-toolbar>
+        <div class="left"><ons-back-button>Назад</ons-back-button></div>
+        <div class="center">Омск-Маркса-41-7</div>
+    </ons-toolbar>
+
+    <div style="text-align: center">
+
+        <h1>Омск-Маркса 41-7</h1>
+		<h2>выберите услуги:</h2>
+     <div style="text-align: center">
+        <br>
+        <ons-button
+            onclick="myNavigator.pushPage('marksa41-7.html')">
+         Техническая эксплуатация
+        </ons-button>
+    </div>
+	 <div style="text-align: center">
+        <br>
+        <ons-button
+            onclick="myNavigator.pushPage('page3.html')">
+          Клининг
+        </ons-button>
+    </div>
+	 <div style="text-align: center">
+        <br>
+        <ons-button
+            onclick="myNavigator.pushPage('page4.html')">
+           Охрана
+        </ons-button>
+    </div>
+	<div style="text-align: center">
+        <br>
+        <ons-button
+            onclick="myNavigator.pushPage('page4.html')">
+           Бухгалтерия
+        </ons-button>
+    </div>
+	<div style="text-align: center">
+        <br>
+        <ons-button
+            onclick="myNavigator.pushPage('page4.html')">
+           Другое
+        </ons-button>
+    </div>
+    </div>
+</ons-page>

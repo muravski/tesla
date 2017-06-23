@@ -1,0 +1,33 @@
+<ons-page>
+    <ons-toolbar>
+        <div class="left"><ons-back-button>Назад</ons-back-button></div>
+        <div class="center">Омск</div>
+    </ons-toolbar>
+
+    <div style="text-align: center">
+
+        <h1>Омск</h1>
+		<h2>выберите адрес:</h2>
+    <div style="text-align: center">
+        <br>
+        <ons-button
+            onclick="myNavigator.pushPage('marksa41-7.html')">
+          ул. Маркса 41/7
+        </ons-button>
+    </div>
+	 <div style="text-align: center">
+        <br>
+        <ons-button
+            onclick="myNavigator.pushPage('marksa41-13.html')">
+          ул. Маркса 41/13
+        </ons-button>
+    </div>
+	 <div style="text-align: center">
+        <br>
+        <ons-button
+            onclick="myNavigator.pushPage('page4.html')">
+           Др. города
+        </ons-button>
+    </div>
+	    </div>
+</ons-page>

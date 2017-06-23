@@ -1,20 +1,26 @@
 {
-   "name": "backend-memo",
-   "title-ja": "Backend Memo",
-   "title-en": "Backend Memo",
-   "description-ja": "A simple memo app using Monaca Backend API.",
-   "description-en": "A simple memo app using Monaca Backend API.",
-   "category": "Sample App",
-   "platform": ["ios", "android"],
-   "preview_url": "https://monaca.github.io/project-templates/16-backend-memo/www/index.html",
-   "framework_version": "3.5",
-   "cordova_version": "5.2",
-   "plugins": [
-      "mobi.monaca.plugins.Monaca",
-      "mobi.monaca.plugins.MonacaBackend"
-   ],
-   "external_plugins": [
-      "cordova-plugin-whitelist@1.0.0",
-      "cordova-plugin-splashscreen@2.1.0"
-   ]
+    "name": "backend-memo",
+    "title-ja": "Backend Memo",
+    "title-en": "Backend Memo",
+    "description-ja": "A simple memo app using Monaca Backend API.",
+    "description-en": "A simple memo app using Monaca Backend API.",
+    "category": "Sample App",
+    "platform": [
+        "ios",
+        "android"
+    ],
+    "preview_url": "https:\/\/monaca.github.io\/project-templates\/16-backend-memo\/www\/index.html",
+    "framework_version": "3.5",
+    "cordova_version": "6.2",
+    "plugins": [
+        "mobi.monaca.plugins.Monaca@3.1.0",
+        "mobi.monaca.plugins.MonacaBackend@1.2.1"
+    ],
+    "external_plugins": [
+        "cordova-plugin-whitelist@1.2.2",
+        "cordova-plugin-splashscreen@3.2.2",
+        "cordova-custom-config@2.0.3",
+        "https:\/\/github.com\/phonegap\/phonegap-plugin-push"
+    ],
+    "xcode_version": "7"
 }
