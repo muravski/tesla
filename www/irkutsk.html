@@ -1,24 +1,19 @@
-<ons-navigator id="myNavigator" page="page1.html"></ons-navigator>
-
-<ons-template id="page1.html">
-  <ons-page id="page1">
+<ons-page>
     <ons-toolbar>
-      <div class="center">Page 1</div>
+        <div class="left"><ons-back-button>Назад</ons-back-button></div>
+        <div class="center">Иркутск</div>
     </ons-toolbar>
 
-    <p>This is the first page.</p>
+    <div style="text-align: center">
 
-    <ons-button id="push-button">Push page</ons-button>
-  </ons-page>
-</ons-template>
-
-<ons-template id="page2.html">
-  <ons-page id="page2">
-    <ons-toolbar>
-      <div class="left"><ons-back-button>Back</ons-back-button></div>
-      <div class="center"></div>
-    </ons-toolbar>
-
-    <p>This is the second page.</p>
-  </ons-page>
-</ons-template>
+        <h1>Иркутск</h1>
+		<h2>выберите адрес:</h2>
+    <div style="text-align: center">
+        <br>
+        <ons-button
+            onclick="myNavigator.pushPage('dekabrskih-sobitiy-125.html')">
+          Декабрьских событий, 125
+        </ons-button>
+    </div>
+	 	    </div>
+</ons-page>
